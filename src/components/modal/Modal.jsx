@@ -8,17 +8,13 @@ class Modal extends Component {
     closeModal: PropTypes.func.isRequired,
   };
 
-  state = {};
-
   componentDidMount() {
     window.addEventListener("keydown", this.props.closeModal);
   }
 
   componentWillUnmount() {
     window.removeEventListener("keydown", this.props.closeModal);
-    }
-
-
+  }
 
   render() {
     return (

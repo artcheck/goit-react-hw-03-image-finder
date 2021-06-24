@@ -1,11 +1,11 @@
-import axios from 'axios';
-import React, { Component } from 'react';
+import axios from "axios";
+import React, { Component } from "react";
 import styled from "./App.module.css";
-import Button from './button/Button';
-import ImageGallery from './imageGallery/ImageGallery';
-import Loader from './loader/Loader';
-import Modal from './modal/Modal';
-import SearchBar from './searchBar/SearchBar';
+import Button from "./button/ButtonLoadMore";
+import ImageGallery from "./imageGallery/ImageGallery";
+import Loader from "./loader/Loader";
+import Modal from "./modal/Modal";
+import SearchBar from "./searchBar/SearchBar";
 
 class App extends Component {
   state = {
